@@ -1,11 +1,10 @@
 import streamlit as st
 import numpy as np
 import joblib
-from tensorflow.keras.models import load_model
+import streamlit as st
 
-# Load files
-model = load_model("churn_model.keras")
-
+st.title("🏦 Bank Churn Prediction")
+st.write("App successfully deployed 🚀")
 st.title("🏦 Bank Churn Prediction")
 
 # Inputs
